@@ -1,0 +1,110 @@
+body{
+    background-image: url("https://images.unsplash.com/photo-1683958467846-e88147117d0a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTI2fHx8ZW58MHx8fHx8&auto=format&fit=crop&w=600&q=60");
+    background-repeat: no-repeat;
+    /* background-position: 100%; */
+    background-position-x:right;
+    background-color:rgb(90, 59, 59);
+    color: aliceblue;
+    font-size: 30px;
+    font-style: italic;
+}
+body:after{
+    content: "";
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    background-color: white;
+    opacity: 10%;
+
+}
+img{
+    height: 10vh;
+    width: 10vw;
+}
+
+.image1 {
+
+    animation-duration: 5s;
+    animation-name: slidein;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-right: 100%;
+      width: 25%;
+    }
+  
+    to {
+      margin-left: 10%;
+      width: 50%;
+      
+    }
+  }
+  .image2 {
+    animation-duration: 5s;
+    animation-name: slidein;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 50%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 5%;
+    }
+  }
+  .image3 {
+    
+    animation-duration: 5s;
+    animation-name: slidein;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 50%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 5%;
+    }
+  }
+  .image4 {
+  
+    animation-duration: 5s;
+    animation-name: slidein;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 50%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 5%;
+    }
+  }
+  .image5 {
+   
+    animation-duration: 5s;
+    animation-name: slidein;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 50%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 10%;
+    }
+  }

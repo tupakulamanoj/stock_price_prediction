@@ -1,0 +1,59 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background:url(https://t4.ftcdn.net/jpg/01/21/32/43/360_F_121324332_W1bUs7v0tW7pcbrAR3e6190pFJe0laQ8.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    /* backdrop-filter: blur(10px); */
+    overflow: hidden;
+    width: 100vw;
+    min-height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+body:after{
+    content: "";
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    background-color: white;
+    opacity: 20%;
+
+}
+
+
+label,
+button,
+input{
+    position: relative;
+    z-index: 1000;
+}
+.hello{
+    background-color: white;
+    border-radius: 0.75em;
+    padding: 4em;
+}
+
+.hello div {
+    padding: 1em;
+}
+
+label {
+    padding-right: 1em;
+}
+
+button {
+    width: 100%;
+}
+input{
+    border-radius: 0.2em;
+}
